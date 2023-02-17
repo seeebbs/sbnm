@@ -1,0 +1,635 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+
+.header-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.header-background {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.header-content {
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  margin-left: 3rem;
+
+  
+}
+
+.header-title {
+  font-size: 6rem;
+  
+
+
+}
+
+.header-description {
+  font-size: 1rem;
+  background-color: white;
+  color: black;
+  border-radius: 40px;
+  text-align: center;
+  
+  padding: 10px;
+  width: 400px;
+  
+  }
+
+
+nav {
+background-color: black;
+padding: 15px;
+color: white;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+
+
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  
+
+  
+}
+      
+nav a:hover {
+  background-color: #ccc;
+      }
+
+.about li {
+  list-style-type: circle;
+
+
+}
+
+ul {
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 0;
+}
+h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+p {
+  line-height: 1.5;
+}
+      
+table {
+  border-collapse: collapse;
+}
+      
+th, td {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+      
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+      
+footer {
+        
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.title2 {
+  padding-left: 100px;
+  padding-top: 40px;
+
+}
+
+.intro-container {
+  
+  background: rgb(255, 248, 226);
+
+}
+
+.click-button {
+  background-color: #e74c3c;
+  color: white;
+  border: 20px;
+  padding: 8px 16px;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+
+}
+
+.click-button:hover {
+color: #fff!important;
+background-color: #000!important;
+}
+
+.intro {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.info-container {
+  
+  height: 200px;
+  box-sizing: inherit;
+  display: block;
+  /*margin-left: 50px;*/
+  padding-left: 50px;
+  background-color: rgb(210, 204, 200);
+}
+
+
+
+.calendar {
+  float: left;
+  width: 30%;
+  padding: 0.01em 16px;
+  padding: 0.01em 16px;
+
+}
+
+.booking {
+ float: left;
+  width: 30%;
+  padding: 0.01em 16px;
+}
+
+.about{
+ float: left;
+  width: 30%;
+  padding: 0.01em 16px;
+
+}
+
+.background-color {
+  float: left;
+  width: 33.3%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 100px;
+  padding-left: 60px;
+  
+}
+
+.col {
+  flex-basis: 33.33%;
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.header-title {
+  text-align: left;
+  color: white;
+  font-size: 80px;
+}
+
+.header-text {
+  font-size: 0,3rem;
+  color: white;
+  float: right;
+  border-radius: 50px;
+  
+
+}
+
+.rooms-desc {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.image-box {
+  width: 30%;
+  margin: 10px;
+  position: relative;
+  overflow: hidden; 
+  border-radius: 20px;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; 
+  transition: transform 0.2s ease-in-out; 
+}
+
+.image-box:hover img {
+  transform: scale(1.1); 
+
+}
+
+.image-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 12.7);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  transform: translateY(100%);
+  transition: transform 0.2s ease-in-out;
+  
+}
+
+.image-box:hover .image-title {
+  transform: translateY(0); 
+}
+
+
+
+
+
+.container {
+  display: flex;
+}
+
+.services {
+  background-color: #f2f2f2;
+  flex: 1;
+  padding: 20px;
+}
+
+.pictures {
+  flex: 1;
+  padding: 20px;
+}
+
+.pictures img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.room-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  
+  align-items: center;
+}
+
+.service-container {
+  background-color: #F5F5F5;
+  padding: 50px;
+  width: 32%;
+}
+
+.image-container {
+  width: 53%;
+margin-left: auto;
+}
+
+.image-container img {
+  width: 45%;
+  margin: 5px;
+}
+
+
+
+
+
+
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.item {
+  width: 300px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+.info {
+  padding: 10px;
+}
+
+.info h2 {
+  margin-top: 0;
+}
+
+
+
+
+
+
+
+
+.booking-box {
+  background-color: #fffab4;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.booking-box h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.booking-box form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.booking-box label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.booking-box input[type="text"],
+.booking-box input[type="email"],
+.booking-box input[type="date"],
+.booking-box textarea {
+  padding: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.booking-box input[type="submit"] {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.booking-box input[type="submit"]:hover {
+  background-color: #555;
+}
+
+
+
+
+
+
+.kalender {
+  width: 50%;
+margin-right: auto;
+padding: 50px;
+}
+
+.booked {
+  background-color: #FFC0CB;
+}
+
+.month {
+  padding: 70px 25px;
+  width: 92,2%;
+  background: #f9efaf;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.month ul li {
+  color: grey;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #f9efaf;
+  color: grey !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+
+
+
+
+.container {
+  display: flex;
+  margin-left: 50px;
+margin-top: 60px;
+margin-bottom: 200px;
+}
+
+.left-container {
+  width: 50%;
+}
+
+.hotel-title {
+  font-size: 56px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.right-container {
+ width: 42%;
+border-left-style: solid;
+padding-left: 25px;
+
+}
+
+.hotel-story {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+
+
+
+.activities {
+  display: flex;
+  margin: auto;
+padding-left: 100px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+
+.info-container2 {
+  display: flex;
+  margin-bottom: 58px;
+}
+
+.info-box {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info-box ul {
+  margin: 0;
+  padding: 0;
+}
+
+.info-box li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+
+img.landkarte {
+  height: auto;
+  padding-bottom: 0;
+}
+
+
+/* .cave-img {
+  width: 100%;
+  padding-bottom: 1rem;
+  height: 150px;
+  object-fit: cover;
+}
+
+.showroom {
+  border-top: 1px solid #efefef;
+padding-top: 2rem;
+position: relative;
+height: 100%;
+display: flex;
+flex-flow: column nowrap;
+display: table;
+}
